@@ -4,7 +4,7 @@ import Hr from "./Hr.astro";
 import LinkButton from "./LinkButton.astro";
 
 export interface Props {
-  activeNav?: "posts" | "archives" | "tags" | "about" | "search";
+  activeNav?: "posts" | "archives" | "about" | "search";
 }
 
 const { activeNav } = Astro.props;
@@ -14,20 +14,9 @@ const { activeNav } = Astro.props;
   <a id="skip-to-content" href="#main-content">Skip to content</a>
   <div class="nav-container">
     <div class="top-nav-wrap">
-      <a href="/" class="logo whitespace-nowrap">
-        {
-          LOGO_IMAGE.enable ? (
-            <img
-              src={`/assets/${LOGO_IMAGE.svg ? "logo.svg" : "logo.png"}`}
-              alt={SITE.title}
-              width={LOGO_IMAGE.width}
-              height={LOGO_IMAGE.height}
-            />
-          ) : (
-            SITE.title
-          )
-        }
-      </a>
+      <a href="/" class="site-title text-[#ffcf68] font-bold text-2xl sm:text-3xl md:text-4xl lg:text-4xl md:whitespace-nowrap sm:whitespace-normal text-center w-full max-w-[90%] md:max-w-[75%] lg:max-w-[65%] xl:max-w-[55%]">
+        SuperCight Domains
+      </a>       
       <nav id="nav-menu">
         <button
           class="hamburger-menu focus-outline"
@@ -58,11 +47,6 @@ const { activeNav } = Astro.props;
           <li>
             <a href="/posts/" class={activeNav === "posts" ? "active" : ""}>
               Posts
-            </a>
-          </li>
-          <li>
-            <a href="/tags/" class={activeNav === "tags" ? "active" : ""}>
-              Tags
             </a>
           </li>
           <li>

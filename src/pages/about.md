@@ -1,36 +1,31 @@
 ---
 layout: ../layouts/AboutLayout.astro
-title: "About"
+title: "About Us"
 ---
 
-AstroPaper is a minimal, responsive and SEO-friendly Astro blog theme. I designed and crafted this based on [my personal blog](https://satnaing.dev/blog).
+## About SEOdIt.com – A Premium SEO Brand
 
-This theme is aimed to be accessible out of the box. Light and dark mode are supported by
-default and additional color schemes can also be configured.
+SEOdIt.com is a premium domain name designed for the future of AI-driven SEO, automation, and digital marketing innovation. Created in January 2025 by SuperCight Domains, this domain is already proving its value by naturally attracting visitors due to its highly relevant and brandable name.
 
-This theme is self-documented \_ which means articles/posts in this theme can also be considered as documentations. So, see the documentation for more info.
+Recognizing the power of organic search, we have built an active blog on SEOdIt.com to establish authority and grow its digital footprint. The blog is focused on cutting-edge SEO insights, AI automation strategies, and industry best practices to enhance visibility and engagement.
+
+Whether used for an SEO tool, SaaS platform, agency, or AI-powered search solution, SEOdIt.com is ready to become a powerhouse brand in the billion-dollar search industry.
 
 <div>
-  <img src="/assets/dev.svg" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
+  <img src="" class="sm:w-1/2 mx-auto" alt="">
 </div>
 
-## Tech Stack
+## About SuperCight Domains – Premium Domains for a Digital Future
 
-This theme is written in vanilla JavaScript (+ TypeScript for type checking) and a little bit of ReactJS for some interactions. TailwindCSS is used for styling; and Markdown is used for blog contents.
+SuperCight Domains is a specialized domain acquisition and sales firm dedicated to premium, high-value domains that empower businesses to establish strong, authoritative online brands.
 
-## Features
+A great domain is more than just a URL—it’s your brand’s first impression, a key SEO asset, and a long-term investment in digital success. We focus on securing top-tier, industry-relevant domain names that drive credibility, enhance search rankings, and provide future-proof branding for startups, investors, and enterprises.
 
-Here are certain features of this site.
+### At SuperCight Domains, we offer:
+* Expertly curated premium domains
+* Secure transactions & seamless ownership transfers
+* Strategic domain advisory services
 
-- fully responsive and accessible
-- SEO-friendly
-- light & dark mode
-- fuzzy search
-- super fast performance
-- draft posts
-- pagination
-- sitemap & rss feed
-- highly customizable
+Our goal is to help businesses secure their perfect domain name—one that sets them apart and strengthens their digital future.
 
-If you like this theme, you can star/contribute to the [repo](https://github.com/satnaing/astro-paper).  
-Or you can even give any feedback via my [email](mailto:contact@satnaing.dev).
+🌐 Website: SuperCight.com

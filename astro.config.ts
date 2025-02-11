@@ -8,7 +8,7 @@ import { SITE } from "./src/config";
 
 // https://astro.build/config
 export default defineConfig({
-  site: SITE.website,
+  site: "https://seodit.com",
   integrations: [
     tailwind({
       applyBaseStyles: false,
@@ -37,6 +37,11 @@ export default defineConfig({
   vite: {
     optimizeDeps: {
       exclude: ["@resvg/resvg-js"],
+    },
+    build: {
+      rollupOptions: {
+        external: ["src/deprecated/**"], // Exclude deprecated/ from build process
+      },
     },
   },
   scopedStyleStrategy: "where",

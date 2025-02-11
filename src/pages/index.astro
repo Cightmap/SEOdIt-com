@@ -22,58 +22,45 @@ const socialCount = SOCIALS.filter(social => social.active).length;
 <Layout>
   <Header />
   <main id="main-content">
+    <!-- Hero Section (Sales Page) -->
     <section id="hero">
-      <h1>Mingalaba</h1>
-      <a
-        target="_blank"
-        href="/rss.xml"
-        class="rss-link"
-        aria-label="rss feed"
-        title="RSS Feed"
-      >
-        <svg xmlns="http://www.w3.org/2000/svg" class="rss-icon"
-          ><path
-            d="M19 20.001C19 11.729 12.271 5 4 5v2c7.168 0 13 5.832 13 13.001h2z"
-          ></path><path
-            d="M12 20.001h2C14 14.486 9.514 10 4 10v2c4.411 0 8 3.589 8 8.001z"
-          ></path><circle cx="6" cy="18" r="2"></circle>
-        </svg>
-        <span class="sr-only">RSS Feed</span>
-      </a>
-
-      <p>
-        AstroPaper is a minimal, responsive, accessible and SEO-friendly Astro
-        blog theme. This theme follows best practices and provides accessibility
-        out of the box. Light and dark mode are supported by default. Moreover,
-        additional color schemes can also be configured.
-      </p>
-      <p>
-        Read the blog posts or check
-        <LinkButton
-          className="underline decoration-dashed underline-offset-4 hover:text-skin-accent"
-          href="https://github.com/satnaing/astro-paper#readme"
-        >
-          README
-        </LinkButton> for more info.
-      </p>
-      {
-        // only display if at least one social link is enabled
-        socialCount > 0 && (
-          <div class="social-wrapper">
-            <div class="social-links">Social Links:</div>
-            <Socials />
-          </div>
-        )
-      }
+      <h1 class="leading-[1] !leading-[1.5]">
+        SEO So Simple, It's Already Done at <span class="text-blue-600">SEOdit.com</span>
+      </h1>      
+            
+      <p class="text-lg text-white">
+        <span class="text-white">Own</span> <strong class="text-blue-500">SEOdit.com</strong> <span class="text-white">– A Premium SEO Brand for AI, Automation, and Digital Growth.</span>
+      </p>      
+      
+      <div class="mt-6">
+        <a href="mailto:seodit.com@supercight.com" class="cta-button">
+          Request Pricing & Details
+        </a>
+      </div>
     </section>
 
     <Hr />
 
+    <!-- Premium Selling Points -->
+    <section id="selling-points">
+      <h2>Why SEOdit.com is a Premium Brand</h2>
+     <ul class="text-white">
+        <li><strong>Short, Memorable, and Brandable</strong> – Perfect for an SEO tool, SaaS, or agency.</li>
+        <li><strong>AI-Driven SEO & Automation Ready</strong> – Built for the future of search technology.</li>
+        <li><strong>Premium “SEO” Keyword</strong> – Directly relevant to the billion-dollar SEO industry.</li>
+       <li><strong>.com Extension</strong> – The most recognized and trusted domain format globally.</li>
+       <li><strong>Available Now</strong> – Secure this domain before your competitors do.</li>
+      </ul>
+    </section>
+
+    <Hr />
+
+    <!-- Blog Posts Section (Keeps Astro Paper Theme Functionality) -->
     {
       featuredPosts.length > 0 && (
         <>
           <section id="featured">
-            <h2>Featured</h2>
+            <h2>Featured Posts</h2>
             <ul>
               {featuredPosts.map(({ data, slug }) => (
                 <Card
@@ -111,7 +98,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
 
     <div class="all-posts-btn-wrapper">
       <LinkButton href="/posts/">
-        All Posts
+        All Blog Posts
         <svg xmlns="http://www.w3.org/2000/svg"
           ><path
             d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z"
@@ -119,36 +106,55 @@ const socialCount = SOCIALS.filter(social => social.active).length;
         </svg>
       </LinkButton>
     </div>
+
+    <Hr />
+
+    <!-- Secure Your Brand CTA -->
+    <section class="cta-section">
+      <h2 class="text-gray-900">Secure a Premium SEO Brand Now</h2>
+      <p class="text-white sm:text-gray-200 md:text-gray-300">
+        <strong class="text-blue-500">SEOdit.com</strong> - The Future of AI SEO & Automation.
+      </p>
+      <p><strong>Serious inquiries only</strong> – Submit your interest today.</p>
+      <div class="mt-6">
+        <a href="mailto:seodit.com@supercight.com" class="cta-button">
+          Request Pricing & Details
+        </a>
+      </div>
+    </section>
   </main>
 
   <Footer />
 </Layout>
 
+<!-- Styles -->
 <style>
   /* ===== Hero Section ===== */
   #hero {
-    @apply pb-6 pt-8;
+    @apply pb-6 pt-8 text-center;
   }
   #hero h1 {
-    @apply my-4 inline-block text-3xl font-bold sm:my-8 sm:text-5xl;
-  }
-  #hero .rss-link {
-    @apply mb-6;
-  }
-  #hero .rss-icon {
-    @apply mb-2 h-6 w-6 scale-110 fill-skin-accent sm:mb-3 sm:scale-125;
+    @apply text-3xl sm:text-5xl font-bold mb-4;
   }
   #hero p {
-    @apply my-2;
+    @apply text-lg text-gray-700 mb-6;
   }
-  .social-wrapper {
-    @apply mt-4 flex flex-col sm:flex-row sm:items-center;
-  }
-  .social-links {
-    @apply mb-1 mr-2 whitespace-nowrap sm:mb-0;
+  .cta-button {
+    @apply bg-blue-600 text-white text-lg font-semibold px-6 py-3 rounded-md shadow-md hover:bg-blue-700 transition;
   }
 
-  /* ===== Featured & Recent Posts Sections ===== */
+  /* ===== Selling Points Section ===== */
+  #selling-points {
+    @apply pb-6 pt-12 text-center;
+  }
+  #selling-points h2 {
+    @apply text-2xl font-semibold tracking-wide mb-9;
+  }
+  #selling-points ul {
+  @apply text-lg text-white list-disc list-inside space-y-2 mb-6;
+  }
+
+  /* ===== Blog Posts Sections (Astro Paper Default) ===== */
   #featured,
   #recent-posts {
     @apply pb-6 pt-12;
@@ -159,5 +165,16 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   }
   .all-posts-btn-wrapper {
     @apply my-8 text-center;
+  }
+
+  /* ===== CTA Section ===== */
+  .cta-section {
+    @apply mt-12 bg-blue-100 py-8 px-6 rounded-lg shadow-md text-center;
+  }
+  .cta-section h2 {
+    @apply text-3xl font-bold mb-4;
+  }
+  .cta-section p {
+    @apply text-lg text-gray-800;
   }
 </style>
