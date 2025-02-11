@@ -7,7 +7,7 @@ slug: site-migration-seo
 featured: true
 draft: false
 tags:
-  - site migration SEO, website migration best practices, SEO for site migration, 301 redirects SEO, Google Search Console site migration, website migration checklist, SEO site migration strategy, how to migrate a website without losing SEO, post-migration SEO checks, site migration SEO audit, redirect map for SEO, domain migration SEO impact, handling 404 errors in SEO, updating sitemaps after migration, mobile SEO for site migration
+  - site migration SEO, website migration best practices, SEO for site migration, 301 redirects SEO, Google Search Console site migration, website migration checklist, SEO site migration strategy, how to migrate a website without losing SEO, post-migration SEO checks, site migration SEO audit, redirect map for SEO, domain migration SEO impact, handling 404 errors in SEO, updating sitemaps after migration, mobile SEO for site migration, SEO Best Practices
 description:
   Learn the essential SEO best practices to ensure a smooth website migration without losing search rankings.
 ---
