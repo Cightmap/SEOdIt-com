@@ -7,7 +7,7 @@ export const SITE: Site = {
   desc: "SEOdIt.com is a premium domain ideal for AI-driven SEO platforms, automation tools, or agencies. Own the future of SEO today.",
   title: "SEOdIt.com - Premium AI SEO Domain for Sale",
   ogImage: "seo-og-image.jpg",
-  lightAndDarkMode: false,
+  lightAndDarkMode: true,
   postPerIndex: 4,
   postPerPage: 3,
   showArchives: true,
