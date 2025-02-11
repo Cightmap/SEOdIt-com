@@ -1,7 +1,7 @@
 ---
 author: Jason Cline for SuperCight Domains
 canonicalURL: https://SEOdit.com/blog/site-migration-seo
-pubDatetime: 2025-01-31T12:15:00Z
+pubDatetime: 2025-01-31T11:03:22Z
 modDatetime: 
 title: SEO Best Practices for Site Migration
 slug: site-migration-seo
