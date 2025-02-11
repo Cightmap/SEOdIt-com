@@ -2,15 +2,15 @@ import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
   website: "https://seodit.com",
-  author: "SEOdIt.com",
+  author: "Jason Cline for SuperCight Domains",
   profile: "https://seodit.com",
   desc: "SEOdIt.com is a premium domain ideal for AI-driven SEO platforms, automation tools, or agencies. Own the future of SEO today.",
   title: "SEOdIt.com - Premium AI SEO Domain for Sale",
   ogImage: "seo-og-image.jpg",
   lightAndDarkMode: true,
-  postPerIndex: 4,
-  postPerPage: 3,
-  showArchives: false,
+  postPerIndex: 1,
+  postPerPage: 1,
+  showArchives: true,
 };
 
 export const LOCALE = {
