@@ -10,7 +10,7 @@ export const SITE: Site = {
   lightAndDarkMode: true,
   postPerIndex: 4,
   postPerPage: 3,
-  showArchives: true,
+  showArchives: false,
 };
 
 export const LOCALE = {
