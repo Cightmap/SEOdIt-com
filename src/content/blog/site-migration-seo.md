@@ -28,7 +28,7 @@ description:
   "Learn the essential SEO best practices to ensure a smooth website migration without losing search rankings."
 ---
 
-<p>Migrating a website can feel risky. You&#39;re excited about the new platform, but worried about losing search rankings. This is where SEO best practices for site migration become vital. A well-planned migration boosts your online presence, while a sloppy one can tank your traffic. This post explores the steps for a successful website move.</p>
+<p>Migrating a website can feel risky. You&#39;re excited about the new platform, but worried about losing search rankings. This is where SEO best practices for site migration become vital. A well-planned migration boosts your online presence, while a sloppy one can tank your traffic. This post explores the steps for a successful move.</p>
 
 <h2>Table of Contents:</h2>
 
